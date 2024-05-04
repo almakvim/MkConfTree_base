@@ -1,0 +1,77 @@
+{
+  "device": { "ser": "5040", "port": "COM5", "boud": "19200" },
+  "favor": [
+    {
+      "idUnit": "3",
+      "name": ["Temper + RH", "DS18B20 + SHTC3"],
+      "param": {
+        "id": "1",
+        "name": "Температура 1 (гр.)",
+        "type": "Float",
+        "atrib": "R",
+        "leng": "4",
+        "value": "25.000"
+      }
+    },
+    {
+      "idUnit": "3",
+      "name": ["Temper + RH", "DS18B20 + SHTC3"],
+      "param": {
+        "id": "2",
+        "name": "Температура 2 (гр.)",
+        "type": "Float",
+        "atrib": "R",
+        "leng": "4",
+        "value": "25.813"
+      }
+    },
+    {
+      "idUnit": "3",
+      "name": ["Temper + RH", "DS18B20 + SHTC3"],
+      "param": {
+        "id": "3",
+        "name": "Температура 3 (гр.)",
+        "type": "Float",
+        "atrib": "R",
+        "leng": "4",
+        "value": "25.125"
+      }
+    },
+    {
+      "idUnit": "3",
+      "name": ["Temper + RH", "DS18B20 + SHTC3"],
+      "param": {
+        "id": "4",
+        "name": "Температура 4 (гр.)",
+        "type": "Float",
+        "atrib": "R",
+        "leng": "4",
+        "value": "22.688"
+      }
+    },
+    {
+      "idUnit": "3",
+      "name": ["Temper + RH", "DS18B20 + SHTC3"],
+      "param": {
+        "id": "5",
+        "name": "Влажность (RH%)",
+        "type": "Uint",
+        "atrib": "R",
+        "leng": "1",
+        "value": "41"
+      }
+    },
+    {
+      "idUnit": "3",
+      "name": ["Temper + RH", "DS18B20 + SHTC3"],
+      "param": {
+        "id": "6",
+        "name": "Float dig test",
+        "type": "Float",
+        "atrib": "WR",
+        "leng": "4",
+        "value": "1.234"
+      }
+    }
+  ]
+}

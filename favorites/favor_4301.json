@@ -1,0 +1,29 @@
+{
+  "device": { "ser": "4301", "port": "COM5", "boud": "19200" },
+  "favor": [
+    {
+      "idUnit": "2",
+      "name": ["Control", "DS18B20 + SHTC3"],
+      "param": {
+        "id": "0",
+        "name": "Status",
+        "type": "Hex",
+        "atrib": "WR",
+        "leng": "2",
+        "value": "0x300"
+      }
+    },
+    {
+      "idUnit": "2",
+      "name": ["Control", "DS18B20 + SHTC3"],
+      "param": {
+        "id": "5",
+        "name": "Counter OFF 1",
+        "type": "Uint",
+        "atrib": "R",
+        "leng": "2",
+        "value": "0"
+      }
+    }
+  ]
+}

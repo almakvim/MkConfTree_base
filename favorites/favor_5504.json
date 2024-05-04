@@ -1,0 +1,41 @@
+{
+  "device": { "ser": "5504", "port": "COM5", "boud": "19200" },
+  "favor": [
+    {
+      "idUnit": "2",
+      "name": ["Control", "CO2_SCD30_103"],
+      "param": {
+        "id": "0",
+        "name": "Концентрация CO2 (ppm)",
+        "type": "Uint",
+        "atrib": "R",
+        "leng": "2",
+        "value": "537"
+      }
+    },
+    {
+      "idUnit": "2",
+      "name": ["Control", "CO2_SCD30_103"],
+      "param": {
+        "id": "1",
+        "name": "Температура (oC)",
+        "type": "Int",
+        "atrib": "WR",
+        "leng": "2",
+        "value": "26"
+      }
+    },
+    {
+      "idUnit": "2",
+      "name": ["Control", "CO2_SCD30_103"],
+      "param": {
+        "id": "2",
+        "name": "Влажность (%)",
+        "type": "Uint",
+        "atrib": "WR",
+        "leng": "2",
+        "value": "26"
+      }
+    }
+  ]
+}
