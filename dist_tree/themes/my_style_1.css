@@ -1,0 +1,206 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: #0f141e;
+  font: normal 11px sans-serif;
+  max-width: 600px;
+  min-width: 600px;
+  margin: 0px 10px;
+  padding: 0px 0px;
+}
+.container {
+  /* width: 75%; */
+  max-width: 600px;
+  margin: 0px 10px;
+  padding: 0px 0px;
+}
+h1 {
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0px 10px;
+  padding: 0px 0px;
+  color: #004fec;
+}
+hr {
+  margin: 0px 0px;
+  padding: 1px 0px;
+  background: #fffefe;
+}
+.title_style {
+  color: #1c1fcf;
+  text-align: center;
+}
+.stlCombo1 {
+  width: 75px;
+  height: 18px;
+  background: #eeffff;
+}
+.stlCombo2 {
+  width: 75px;
+  height: 18px;
+  background: #eeffff;
+}
+.stlWin1 {
+  width: 100px;
+  height: 14px;
+  background: #eeffff;
+}
+.stlWin2 {
+  width: 50px;
+  height: 14px;
+  background: #eeffff;
+}
+.stlWin3 {
+  width: 50px;
+  height: 14px;
+  background: #eeffff;
+}
+.stlWin4 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #019101;
+  padding-left: 15px;
+}
+.stlDev {
+  width: 250px;
+  height: 20px;
+  background: #eeffff;
+}
+.stlDel {
+  width: 30px;
+  height: 20px;
+  background: #ffd3d3;
+}
+
+button.button27 {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 22px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
+button.button27:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+button.button27:active {
+  background: none;
+  box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0, 0, 0, 0.5) inset,
+    0 1px 2px #fff;
+}
+
+/* Выберите файлы */
+.chous {
+  width: 180px;
+  height: 50px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 25px;
+  cursor: pointer;
+  display: block;
+  font: 12px/50px Tahoma;
+  transition: all 0.18s ease-in-out;
+  border: 1px solid #1b201c;
+  background: linear-gradient(
+      to top right,
+      #3ec97a,
+      #69ea49 20%,
+      rgba(219, 182, 182, 10) 80%,
+      rgba(255, 250, 255, 10)
+    )
+    top right/500% 500%;
+  color: #000000;
+}
+
+.chous:hover {
+  color: rgb(247, 255, 11);
+  background-position: bottom left;
+}
+
+.my {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.bkgSet1 {
+  background-color: #eeeeee;
+  color: #0d1df5;
+}
+.bkgSet2 {
+  color: #000000;
+  background-color: #dcdcdc;
+}
+.bkgSet3 {
+  color: #bd0000;
+}
+
+#treeDevice {
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.styleTree {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.styleTree .jstree-node {
+  min-height: 18px;
+  line-height: 20px;
+  margin-left: 20px;
+  min-width: 20px;
+}
+.styleTree .jstree-anchor {
+  line-height: 20px;
+  height: 20px;
+}
+.styleTree .jstree-icon {
+  width: 20px;
+  height: 18px;
+  line-height: 18px;
+}
+.styleTree .jstree-icon:empty {
+  width: 20px;
+  height: 18px;
+  line-height: 18px;
+}
+.styleTree.jstree-rtl .jstree-node {
+  margin-right: 20px;
+}
+.styleTree .jstree-wholerow {
+  height: 18px;
+}
+button.buttList3 {
+  width: 29px;
+  height: 20px;
+  border: 1px solid;
+  line-height: 1px;
+  vertical-align: middle;
+  text-align: center;
+  color: #2252bb;
+  border-radius: 5px;
+  margin-left: 4px;
+  background: #f2fcff linear-gradient(#f8fcff, #90d6ff);
+}
+button.buttList3:hover {
+  color: #000000;
+  background: #f5fff6 linear-gradient(#fcf5f5, #e90000);
+}
+.iconStyle{
+  width: 16px;
+  height: 16px;
+}
