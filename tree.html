@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Device Configurator</title>
+    <link rel="stylesheet" href="./dist_tree/themes/default/style.min.css" />
+    <link rel="stylesheet" href="./dist_tree/themes/my_style_1.css" />
+    <link rel="stylesheet" href="./dist_tree/themes/my_style_2.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <hr />
+      <!-- <h1>Device Settings Configuration</h1>
+      <hr /> -->
+      <table class="stlTableA">
+        <tr>
+          <th class="stlSel2" id="devLegend">
+            <a href="#" class="loadConfStyle" id="saveToFile"
+              >Save configuration to file
+            </a>
+          </th>
+          <th class="stlSel1">
+            <a href="#" class="loadConfStyle" id="loadConfTr"
+              >Load configuration from file</a
+            >
+            <!-- <label class="warn_Label" id="warn_LID">_#</label> -->
+          </th>
+        </tr>
+        <tr>
+          <th class="stlSel2">
+            <input type="checkbox" id="select1" onclick="selectCheck1()" />
+            <button class="buttList3" onclick="updataComPort()"><img class="iconStyle" src="img/refresh.svg" /></button>
+            <label class="oprosLabel" id="labelComPort">Port: </label>
+            <select
+              class="stlCombo1"
+              id="selComPort"
+              onchange="selectComPort(this)"
+            ></select>
+            <label class="oprosLabel" id="labelBoud">Boud:</label>
+            <select
+              class="stlCombo2"
+              id="selBoudRate"
+              onchange="selectBoudRate(this)"
+            >
+              <option value="9600">9600</option>
+              <option value="19200">19200</option>
+              <option value="38400">38400</option>
+              <option value="57600">57600</option>
+              <option value="115200">115200</option>
+              <option value="230400">230400</option>
+              <option value="460800">460800</option>
+              <option value="921600">921600</option>
+            </select>
+          </th>
+          <th class="stlSel1">
+            <a href="#" id="addDevice">Load configuration from device </a>
+            <!-- <label class="warn_Label" id="warn_Ones">_#</label> -->
+          </th>
+        </tr>
+
+        <tr>
+          <th class="stlSel2" id="devLegend">
+            <input type="checkbox" id="select2" onclick="selectCheck2()" />
+            <label class="oprosLabel" id="labelIpAddr">IP addr: </label>
+            <input
+              class="stlWin1"
+              type="text"
+              id="ipNum"
+              value="192.168.50.50"
+            />
+            <label class="oprosLabel" id="labelOpros"> Port: </label>
+            <input class="stlWin3" type="text" id="portNum" value="17001" />
+          </th>
+          <th class="stlSel1">
+            <label class="oprosLabel"> S/N devices: </label>
+            <input class="stlWin2" type="text" id="serNum" value="32020" />
+            <a href="#" class="stlWin4" id="startOnes">Start receiving</a>
+          </th>
+        </tr>
+      </table>
+      <hr />
+      <table class="stlTableC">
+        <tr>
+          <th class="stlSel2">
+            <a href="#" class="loadConfStyle2" id="saveFavor"
+              >Save parameter selection</a
+            >
+          </th>
+          <th class="stlSel1">
+            <a href="#" class="loadConfStyle2" id="addToFavor"
+              >Load selection of options</a
+            >
+          </th>
+          <!-- <th class="stlSel1">
+            <div id="myBar">
+              <a href="#" class="loadConfStyle3" id="loadFlash">Прошивка:0%</a>
+            </div>
+          </th> -->
+        </tr>
+      </table>
+      <hr />
+      <table class="stlTableB">
+        <tr>
+          <th class="stlSel3">
+            <label class="warn_Label1" id="loadInfo1"></label>
+            <label class="warn_Label11" id="loadInfo11"></label>
+          </th>
+        </tr>
+      </table>
+      <table class="stlTableB">
+        <tr>
+          <th align="left" width="40%" class="stlSel3">
+            <label class="warn_Label2" id="loadInfo2"></label>
+          </th>
+          <th align="right" width="60%">
+            <label class="perLabel3" id="loadInfo22"></label>
+          </th>
+        </tr>
+      </table>
+      <table class="stlTableD">
+        <tr>
+          <th align="left" width="40%" class="stlSel3">
+            <label class="perLabel2">Sent: </label>
+            <label class="warn_Label3" id="loadInfo3"></label>
+            <label class="perLabel">п/с,</label>
+            <label class="perLabel2">Received: </label>
+            <label class="warn_Label3" id="loadInfo4"></label>
+            <label class="perLabel">п/с</label>
+          </th>
+          <th align="right" width="60%">
+            <label class="perLabel3" id="loadInfo5"></label>
+          </th>
+        </tr>
+      </table>
+      <hr />
+      <div id="treeDevice" class="styleTree"></div>
+      <hr />
+    </div>
+    <!-- ----------------------------------------------------------------- -->
+  </div>
+    <script type="text/javascript" src="./dist_tree/my_script_1.js"></script>
+    <script type="text/javascript" src="./dist_tree/my_script_2.js"></script>
+  </body>
+</html>

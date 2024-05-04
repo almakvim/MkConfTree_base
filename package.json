@@ -1,0 +1,36 @@
+{
+  "name": "electron-tree-defaulte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . sbus_config --asar --platform=win32 --arch=x64 --prune=true --out=release-builds --icon=./img/udp.ico --overwrite"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "kvim",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.0.1",
+    "electron-packager": "^15.5.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@serialport/list": "^10.4.0",
+    "axios": "^0.26.0",
+    "child_process": "^1.0.2",
+    "clipboard": "^2.0.11",
+    "electron-browser-storage": "^1.0.7",
+    "electron-json-storage": "^4.5.0",
+    "iconv-lite": "^0.6.3",
+    "jquery": "^3.6.0",
+    "jstree": "^3.3.12",
+    "jstreegrid": "^3.10.2",
+    "save": "^2.4.0",
+    "serialport": "^10.4.0",
+    "sharp": "^0.30.1",
+    "util": "^0.12.4"
+  }
+}
