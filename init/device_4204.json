@@ -1,0 +1,173 @@
+{
+  "ser": 4204,
+  "ip": "172.16.200.50",
+  "port": 17001,
+  "check": 1,
+  "com": "COM7",
+  "boud": "19200",
+  "uNum": 4,
+  "unit": [
+    {
+      "opened": false,
+      "idParent": 0,
+      "idUnit": 0,
+      "nParam": 0,
+      "name": "PWM_LED_current",
+      "param": []
+    },
+    {
+      "opened": true,
+      "idParent": 0,
+      "idUnit": 1,
+      "nParam": 4,
+      "name": "System",
+      "param": [
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Серийный номер",
+          "data": "4203"
+        },
+        {
+          "check": false,
+          "prop": 23,
+          "len": 4,
+          "name": "Время работы",
+          "data": "00:00:40"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Перегрузка системы",
+          "data": "no"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Соxранить настройки",
+          "data": "no"
+        }
+      ]
+    },
+    {
+      "opened": true,
+      "idParent": 0,
+      "idUnit": 2,
+      "nParam": 8,
+      "name": "Control",
+      "param": [
+        {
+          "check": false,
+          "prop": 2,
+          "len": 1,
+          "name": "Level (0..100)",
+          "data": "0"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 1,
+          "name": "Start level (0..100)",
+          "data": "20"
+        },
+        {
+          "check": false,
+          "prop": 4,
+          "len": 4,
+          "name": "DC (V)",
+          "data": "25.360"
+        },
+        {
+          "check": false,
+          "prop": 4,
+          "len": 4,
+          "name": "DC current (A)",
+          "data": "-0.005"
+        },
+        {
+          "check": false,
+          "prop": 18,
+          "len": 2,
+          "name": "PWM code (0..65535)",
+          "data": "0"
+        },
+        {
+          "check": false,
+          "prop": 18,
+          "len": 2,
+          "name": "ADC Level 1",
+          "data": "3845"
+        },
+        {
+          "check": false,
+          "prop": 18,
+          "len": 2,
+          "name": "ADC Level 2",
+          "data": "3164"
+        },
+        {
+          "check": false,
+          "prop": 18,
+          "len": 2,
+          "name": "KN state",
+          "data": "0"
+        }
+      ]
+    },
+    {
+      "opened": true,
+      "idParent": 0,
+      "idUnit": 3,
+      "nParam": 6,
+      "name": "Parameters",
+      "param": [
+        {
+          "check": false,
+          "prop": 4,
+          "len": 4,
+          "name": "PWM coef",
+          "data": "1.001"
+        },
+        {
+          "check": false,
+          "prop": 4,
+          "len": 4,
+          "name": "Current coef 1",
+          "data": "-0.005"
+        },
+        {
+          "check": false,
+          "prop": 4,
+          "len": 4,
+          "name": "Current coef 2",
+          "data": "14.552"
+        },
+        {
+          "check": false,
+          "prop": 4,
+          "len": 4,
+          "name": "Current shift",
+          "data": "-0.124"
+        },
+        {
+          "check": false,
+          "prop": 4,
+          "len": 4,
+          "name": "Current limit (4,95A max)",
+          "data": "0.450"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Delta level (mS)",
+          "data": "25"
+        }
+      ]
+    }
+  ],
+  "load": "file"
+}

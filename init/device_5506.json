@@ -1,0 +1,152 @@
+{
+  "ser": 5506,
+  "ip": "172.16.200.50",
+  "port": 17001,
+  "check": 1,
+  "com": "COM7",
+  "boud": "19200",
+  "uNum": 4,
+  "unit": [
+    {
+      "opened": false,
+      "idParent": 0,
+      "idUnit": 0,
+      "nParam": 0,
+      "name": "CO2_SCD30_103",
+      "param": []
+    },
+    {
+      "opened": true,
+      "idParent": 0,
+      "idUnit": 1,
+      "nParam": 4,
+      "name": "System",
+      "param": [
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Серийный номер",
+          "data": "5505"
+        },
+        {
+          "check": false,
+          "prop": 23,
+          "len": 4,
+          "name": "Время работы",
+          "data": "00:02:49"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Перегрузка системы",
+          "data": "no"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Соxранить настройки",
+          "data": "no"
+        }
+      ]
+    },
+    {
+      "opened": true,
+      "idParent": 0,
+      "idUnit": 2,
+      "nParam": 9,
+      "name": "Control",
+      "param": [
+        {
+          "check": false,
+          "prop": 18,
+          "len": 2,
+          "name": "Концентрация CO2 (ppm)",
+          "data": "688"
+        },
+        {
+          "check": false,
+          "prop": 1,
+          "len": 2,
+          "name": "Температура (oC)",
+          "data": "24"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Влажность (%)",
+          "data": "29"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Автокалибровка уст-на",
+          "data": "no"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Быстрая калиб-ка (ppm)",
+          "data": "400"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Смещение темп-ры (oCx100)",
+          "data": "839"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Компенсация высоты (м)",
+          "data": "120"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Уст-ть интервал (2..1800)",
+          "data": "2"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Мягкий сброс",
+          "data": "no"
+        }
+      ]
+    },
+    {
+      "opened": true,
+      "idParent": 0,
+      "idUnit": 3,
+      "nParam": 2,
+      "name": "Parameters",
+      "param": [
+        {
+          "check": false,
+          "prop": 1,
+          "len": 2,
+          "name": "Смещение температуры",
+          "data": "0"
+        },
+        {
+          "check": false,
+          "prop": 1,
+          "len": 2,
+          "name": "Смещение влажности",
+          "data": "0"
+        }
+      ]
+    }
+  ],
+  "load": "file"
+}

@@ -1,0 +1,115 @@
+{
+  "ser": 4301,
+  "ip": "172.16.200.50",
+  "port": 17001,
+  "check": 1,
+  "com": "COM7",
+  "boud": "19200",
+  "uNum": 3,
+  "unit": [
+    {
+      "opened": false,
+      "idParent": 0,
+      "idUnit": 0,
+      "nParam": 0,
+      "name": "RF_103_RELE_2",
+      "param": []
+    },
+    {
+      "opened": true,
+      "idParent": 0,
+      "idUnit": 1,
+      "nParam": 4,
+      "name": "System",
+      "param": [
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Серийный номер",
+          "data": "4301"
+        },
+        {
+          "check": false,
+          "prop": 23,
+          "len": 4,
+          "name": "Время работы",
+          "data": "00:01:14"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Перегрузка системы",
+          "data": "no"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Соxранить настройки",
+          "data": "no"
+        }
+      ]
+    },
+    {
+      "opened": true,
+      "idParent": 0,
+      "idUnit": 2,
+      "nParam": 7,
+      "name": "Control",
+      "param": [
+        {
+          "check": false,
+          "prop": 5,
+          "len": 2,
+          "name": "Status",
+          "data": "0x300"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Time 1 OFF rele (sec,0=off)",
+          "data": "10"
+        },
+        {
+          "check": false,
+          "prop": 2,
+          "len": 2,
+          "name": "Time 2 OFF rele (sec,0=off)",
+          "data": "10"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Rele 1 start ON",
+          "data": "yes"
+        },
+        {
+          "check": false,
+          "prop": 3,
+          "len": 1,
+          "name": "Rele 2 start ON",
+          "data": "yes"
+        },
+        {
+          "check": false,
+          "prop": 18,
+          "len": 2,
+          "name": "Counter OFF 1",
+          "data": "0"
+        },
+        {
+          "check": false,
+          "prop": 18,
+          "len": 2,
+          "name": "Counter OFF 2",
+          "data": "0"
+        }
+      ]
+    }
+  ],
+  "load": "file"
+}
